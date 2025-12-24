@@ -1,6 +1,6 @@
  console.log("Hello Do You need to Know about weather... here u go... ");
     const apiurl='https://api.openweathermap.org/data/2.5/weather?&units=metric&q=';
-    const apikey='fb88393e076860e05a7d00594c0d7c48';
+    const apikey='';
     const searchBox=document.querySelector(".search input");
     const searchBtn=document.querySelector(".search button");
     async function checkweather(city){
