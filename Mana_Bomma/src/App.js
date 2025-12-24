@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import MovieCard from './MovieCard';
 import { useState } from 'react';
 
-const API_URL = "http://www.omdbapi.com?apikey=8186e430";
+const API_URL = "http://www.omdbapi.com?apikey=";
 
 
 function App() {
