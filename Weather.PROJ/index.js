@@ -1,4 +1,5 @@
  console.log("Hello Do You need to Know about weather... here u go... ");
+// my api url to get weather data
     const apiurl='https://api.openweathermap.org/data/2.5/weather?&units=metric&q=';
     const apikey='';
     const searchBox=document.querySelector(".search input");
