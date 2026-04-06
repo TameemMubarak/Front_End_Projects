@@ -3,9 +3,9 @@ import searchIcon from './search.svg';
 import React, { useEffect } from 'react';
 import MovieCard from './MovieCard';
 import { useState } from 'react';
-
+// this is the external websit i ue fo tredering the data
 const API_URL = "http://www.omdbapi.com?apikey=";
-
+// this is the external web for fetching anf render data 
 
 function App() {
   const [movies, setMovies] = useState([]);
