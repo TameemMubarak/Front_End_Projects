@@ -2,7 +2,7 @@ import React from 'react';
 
 const MovieCard=({movie})=>{
     return(
-        // this is the movie card code 
+        // this is the movie card code template
         <div className="movie">
             <div>
               <p>{movie.Year}</p>
